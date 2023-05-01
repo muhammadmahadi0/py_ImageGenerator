@@ -11,9 +11,8 @@ This Python code uses OpenAI's DALL-E API to generate images based on a given pr
 2. Install the `requests` and `openai` library by running `pip install requests openai` in the terminal.
 3. Set up your OpenAI API credentials by replacing `YOUR_API_KEY` in the code below with your actual API key:
 ```python
-import os
+openai.api_key = 'YOUR_API_KEY'
 
-os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 ```
 ## Usage
 1. Run the Python script using the following command:

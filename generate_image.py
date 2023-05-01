@@ -3,8 +3,7 @@ import requests
 from PIL import Image
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
-
+openai.api_key = 'YOUR_API_KEY'
 # Prompt user for input
 prompt = input("Enter a prompt for the image: ")
 
