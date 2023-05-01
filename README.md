@@ -5,7 +5,7 @@ This Python code uses OpenAI's DALL-E API to generate images based on a given pr
 ## Requirements
 * OpenAI [API key](https://platform.openai.com/account/api-keys)
 * Python 3.x
-* requests library (can be installed using pip)
+* requests and openai library (can be installed using pip)
 ## Setup
 1. Install Python 3.x on your system.
 2. Install the `requests` and `openai` library by running `pip install requests openai` in the terminal.
